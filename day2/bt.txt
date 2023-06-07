@@ -1,0 +1,7 @@
+BT1: Viết chương trình nhập vào số tiền đôla Mỹ -> chuyển sang
+vnd. (cần format định dạng tiền tệ)
+1$ =  23.486,50 đ 
+
+150 $ = ? đ
+
+
