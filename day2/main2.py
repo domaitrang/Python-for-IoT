@@ -76,3 +76,7 @@ print(a is b) # ??? True hay False
 b[0] = 10
 print(b)
 print(a)
+
+s1 = "Hello"
+s2 = "Hello"
+print(s1 is s2)
