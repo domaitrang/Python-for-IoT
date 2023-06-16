@@ -68,7 +68,7 @@ print(tinh_dien_tich_hinh_tron(3.5))
 # Hàm python có thể trả về nhiều giá trị 1 lúc.
 
 
-def hcn(chieu_dai: float = 1, chieu_rong: float = 1) -> tuple:
+def hcn(chieu_dai: float = 1, chieu_rong: float = 1) -> tuple[float, float]:
     """ Hàm tính chu vi, diên tích hình chữ nhật """
     if ((isinstance(chieu_dai, int) or isinstance(chieu_dai, float)) and (isinstance(chieu_rong, int) or isinstance(chieu_rong, float))
        and chieu_dai > 0 and chieu_rong > 0):
