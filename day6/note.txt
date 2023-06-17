@@ -1,0 +1,30 @@
+VD1. Tạo một module example.py
+
+VD2. Tạo module hinhhoc.py
+
+Có chứ các hàm tính chuvi,diện tích hình tron
+# def cv_hinh_tron(r:float) -> float
+# def dt_hinh_tron(r:float) -> float
+
+(nếu r - không hợp lệ => return -1)
+
+VD3: Tạo module math.py trong đó có 2 hàm: 
+sin(x) với x là float, đơn vị độ
+cos(x) với x là float, đơn vị độ
+
+BT1: Tạo một package hinhhoc có cấu trúc như sau:
+
+ |   hinhhoc
+ |   |__init__.py 
+ |   |-hinh2d
+ |       |-hinhtron.py # Có 2 hàm tính chu vi, diện tích
+ |       |-hinhvuong.py # Có 2 hàm tính chu vi, diện tích
+ |   |-hinh3d
+ |      |-hinhtru.py  # Có 1 hàm tính thể tích
+ |   main.py # Chương trình chính
+
+
+ Tính chu vi, diên tích với các hình 2d và thể tích với hình 3d
+
+
+
