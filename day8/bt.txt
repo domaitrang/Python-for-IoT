@@ -1,0 +1,7 @@
+1. Viết chương trình tính chu vi, diện tích hình chữ nhật, theo 2 cách:
+- Theo hướng thủ tục
++ Nhập dữ liệu bàn phím -> gọi đến hàm tính chu vi, diện tích
+- Theo hướng đối tượng.
++ Tạo dối tượng hinh_chu_nhat -> tính chu, diện tích ...
+
+2. Nhập vào 10 hình chữ nhật -> in ra hình có chu vi lớn nhất.

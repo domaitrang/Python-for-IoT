@@ -1,0 +1,3 @@
+Kế thừa vs Composition
+
+# Cuốn sách design pattern -> ưu tiên sử dụng composition hơn kế thừa
