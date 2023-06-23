@@ -1,0 +1,15 @@
+Tạo 1 class VanBan có thuộc tính private noi_dung, duong_dan (mặc định file txt)
+Class này có các phương thức:
+- Chuẩn hoá văn bản: xoá các khoảng trắng đầu cuối và viết hoa từ đầu tiên, loại 
+bỏ double space, tab.
+VD: "xin chao toi    ten la Nguyen Van A.  " ->
+    "Xin chao toi ten la Nguyen Van A."
+- Đếm số từ có trong văn bản: -> trả về số nguyên 8 từ.
+- Viết hoa toàn bộ văn bản.
+- Lưu văn bản sau khi xu ly.
+
+VD: a = VanBan("vb1.txt")
+    a.chuan_hoa_van_ban()
+    print( a.dem_tu())
+    a.save()...
+    

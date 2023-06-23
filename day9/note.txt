@@ -1,0 +1,32 @@
+Xử lý ngoại lệ + làm việc với file
+
+
+* Xử lý ngoại lệ - exception ?
+
+VD1: Viết chương trình nhập 2 số a và b từ bàn phím. -> in ra kết quả của a chia b.
+
+TH1:  a=5, b = 6 => a/b ~ 0.8
+TH2:  a = "abc", b = 5 -> phát sinh lỗi do a ko phải số 
+TH3:  a=5 , b = 0 => ko thể chia cho 0.
+
+=> lỗi sinh ra tại thời diểm chương trình thực thi  -> các ngoại lệ - exception.
+? Xử lý thế nào
+=> c++/java => dùng try-catch
+-> python -> try-except 
+
+# Cú pháp
+
+try:
+    # Khối lệnh có thể phát sinh lõi khi runtime
+except:
+   # Khi có lỗi -> khối lệnh tại đây được thực thi.
+
+
+try:
+
+except:
+
+except:
+
+finally:
+    # Luôn chạy kể cả có lỗi hay ko có lỗi
