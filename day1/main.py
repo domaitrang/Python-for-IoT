@@ -2,5 +2,5 @@ print("Hello world")
 
 print("Xin Chao!")
 
-print("a", 6)
+print("a", 5)
 
